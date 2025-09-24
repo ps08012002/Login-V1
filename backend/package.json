@@ -1,0 +1,36 @@
+{
+  "name": "login-v1",
+  "version": "1.0.0",
+  "description": "Sebuah website Untuk Mecoba User Login",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps08012002/Login-V1.git"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "Mr_UwaaW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ps08012002/Login-V1/issues"
+  },
+  "homepage": "https://github.com/ps08012002/Login-V1#readme",
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prisma": "^6.16.2"
+  }
+}
